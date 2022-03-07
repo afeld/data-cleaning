@@ -15,4 +15,5 @@ tdda = "*"
 [dev-packages]
 
 [requires]
-python_version = "3.10"
+# https://mybinder.readthedocs.io/en/latest/howto/languages.html#python
+python_version = "3.7"
