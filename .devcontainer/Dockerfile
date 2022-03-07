@@ -18,7 +18,9 @@ RUN if [ "${NODE_VERSION}" != "none" ]; then su vscode -c "umask 0002 && . /usr/
 #     && apt-get -y install --no-install-recommends <your-package-list-here>
 
 COPY Pipfile Pipfile.lock .
-RUN pipenv install
+RUN pipenv install --deploy
+# creates the virtual environment
+RUN pipenv run python --version
 
 # https://www.postgresql.org/download/linux/ubuntu/
 RUN sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt $(lsb_release -cs)-pgdg main" > /etc/apt/sources.list.d/pgdg.list'
