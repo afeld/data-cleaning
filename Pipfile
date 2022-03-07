@@ -12,6 +12,7 @@ pandas-profiling = {version = "==3.0.0", extras = ["notebook"]}
 pytest = "*"
 tdda = "*"
 psycopg2 = "*"
+pgspecial = "*"
 
 [dev-packages]
 

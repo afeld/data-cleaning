@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "6a4b522a3d375bf7b387ea21d47cd00bc6fbb7f455ed268a4095fe3173df2f23"
+            "sha256": "7cd8dfec5bc11db79724cec10ce370cf21123a5050b71cf4d4a9a926d8ca5aff"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -171,6 +171,14 @@
             ],
             "markers": "python_version >= '3'",
             "version": "==2.0.12"
+        },
+        "click": {
+            "hashes": [
+                "sha256:6a7a62563bbfabfda3a38f3023a1db4a35978c0abd76f6c9605ecd6554d6d9b1",
+                "sha256:8458d7b1287c5fb128c90e23381cf99dcde74beaf6c7ff6384ce84d6fe090adb"
+            ],
+            "markers": "python_version >= '3.6'",
+            "version": "==8.0.4"
         },
         "cycler": {
             "hashes": [
@@ -745,6 +753,14 @@
             ],
             "markers": "sys_platform != 'win32'",
             "version": "==4.8.0"
+        },
+        "pgspecial": {
+            "hashes": [
+                "sha256:5716c470f358cf74914b8155bf48d6a8deb8f70aa6eccf8bddaacc44dfee46e4",
+                "sha256:d5dab96690908275916dc2c622efae217f142e08165fa366949d41cbc5658701"
+            ],
+            "index": "pypi",
+            "version": "==1.13.1"
         },
         "phik": {
             "hashes": [
