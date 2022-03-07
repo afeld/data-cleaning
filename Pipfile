@@ -11,9 +11,9 @@ pandas = "*"
 pandas-profiling = {version = "==3.0.0", extras = ["notebook"]}
 pytest = "*"
 tdda = "*"
+psycopg2 = "*"
 
 [dev-packages]
 
 [requires]
-# https://mybinder.readthedocs.io/en/latest/howto/languages.html#python
-python_version = "3.7"
+python_version = "3.10"
