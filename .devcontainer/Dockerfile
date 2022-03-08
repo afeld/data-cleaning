@@ -25,5 +25,3 @@ RUN sudo apt-get update && \
 
 COPY Pipfile Pipfile.lock .
 RUN pipenv install --deploy
-# create the virtual environment
-RUN pipenv run python --version
