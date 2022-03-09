@@ -1,5 +1,6 @@
 __pycache__/
 .cache/
+.conda/
 *.html
 
 # repo2docker
