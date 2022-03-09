@@ -4,5 +4,5 @@
 
 ## Running locally
 
-1. [Install repo2docker](https://repo2docker.readthedocs.io/en/latest/install.html).
-1. `cd` into this directory and run `jupyter-repo2docker .`
+1. [Install repo2docker](https://repo2docker.readthedocs.io/en/latest/install.html)
+1. `cd` into this directory and run `jupyter-repo2docker -E .`
