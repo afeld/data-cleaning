@@ -1,6 +1,9 @@
 #!/bin/bash
 
+set -ex
+
 # set data directory and initialize
-export PGDATA=$HOME/pgsql/data
+export PGDATA=$HOME/postgres/data
+rm -rf "$PGDATA"
 mkdir -p "$PGDATA"
 pg_ctl initdb
