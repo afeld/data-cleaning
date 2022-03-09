@@ -2,10 +2,12 @@ name: data-cleaning
 channels:
   - conda-forge
 dependencies:
-  - python
   - pandas
+  - pandas-profiling
+  - pgspecial
   - postgresql
   - psycopg2
-  - pgspecial
+  - python
   - pip:
       - ipython-sql~=0.4.0
+      - pytest
