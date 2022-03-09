@@ -3,3 +3,10 @@
 # repo2docker
 .jupyter-server-log.txt
 .local/
+.ipynb_checkpoints/
+.ipython/
+.jupyter/
+
+# PostgreSQL
+pgsql/
+pglog
