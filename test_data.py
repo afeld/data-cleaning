@@ -5,7 +5,7 @@ from pytest import approx
 
 @pytest.fixture
 def df():
-    return pd.read_csv("311_jan_2022.csv")
+    return pd.read_csv("data/311_jan_2022.csv")
 
 
 def test_num_columns(df):
