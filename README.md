@@ -8,9 +8,4 @@ These examples use [NYC's 311 dataset](https://data.cityofnewyork.us/Social-Serv
 
 1. [Install repo2docker](https://repo2docker.readthedocs.io/en/latest/install.html)
 1. `cd` into this directory and run `jupyter-repo2docker -E .`
-
-If you get a database connection error, try [launching a terminal in JupyterHub](https://jupyterlab.readthedocs.io/en/stable/user/terminal.html) and re-creating with:
-
-```sh
-./postBuild; ./start
-```
+1. After you open the provided URL, change the path in your browser to `/lab`.
