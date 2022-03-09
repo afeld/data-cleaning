@@ -7,4 +7,5 @@ dependencies:
   - postgresql
   - psycopg2
   - pgspecial
-  - ipython-sql
+  - pip:
+      - ipython-sql~=0.4.0
