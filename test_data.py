@@ -1,3 +1,5 @@
+# To run this file, launch a terminal, type `pytest`, and hit Enter.
+
 import pandas as pd
 import pytest
 from pytest import approx
@@ -18,3 +20,6 @@ def test_lat_lng(df):
     # https://docs.pytest.org/en/latest/reference/reference.html?highlight=within#pytest-approx
     assert df["Latitude"].median() == approx(40.730610, rel=1e-3)
     assert df["Longitude"].median() == approx(-73.935242, rel=1e-3)
+
+
+# now hop back to pandas.ipynb
